@@ -119,6 +119,7 @@ section {
 .controlls .active-btn i {
     color: var(--color-white) !important;
 }
+
 .header-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -562,4 +563,91 @@ color: var(--color-secondary);
     color: var(--color-grey-2);
     line-height: 2rem;
     padding-bottom: 1rem;
+}
+.contact-content-con{
+    display: flex;
+    padding: 3.5rem;
+}
+.contact-content-con .left-contact{
+   flex: 2;
+}
+.left-contact h4{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.left-contact p{
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.contact-info .contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-item p{
+    margin: .3rem 0 !important;
+    padding: 0 !important;
+}
+.contact-item .icon{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.icon i{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.contact-icon{
+    display: flex;
+    margin-top: 2rem;
+}
+.contact-icon a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: var(--color-grey-5);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: var(--color-white);
+    margin: 0 .4rem;
+    transition: all .4s ease-in-out;
+}
+.contact-icon a:hover{
+    background-color: var(--color-secondary);
+}
+.contact-icon i:hover{
+    color: var(--color-primary);
+}
+.contact-content-con .right-contact{
+   flex: 3;
+   margin-left: 3rem;
+}
+.input-control{
+    margin: 1.5rem 0;
+}
+.input-control input, textarea{
+    border-radius: 30px;
+    font-weight: inherit;
+    font-size: inherit;
+    padding: .8rem 1.1rem;
+    outline: none;
+    border: none;
+    background-color: var(--color-grey-5);
+    width: 100%;
+    resize: none;
+    color: var(--color-white);
+}
+.right-contact .i-c-2{
+    display: flex;
+    gap: 2rem;
+}
+.i-c-2:last-child{
+margin-left: 1.5rem;
+}
+.right-contact .submit-btn{
+    display: flex;
+    justify-content: flex-start;
 }
